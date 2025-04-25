@@ -1,0 +1,3 @@
+{
+    "src/**/*.{html,css,json,yaml,md}": "prettier --write"
+}

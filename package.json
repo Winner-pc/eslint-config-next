@@ -1,0 +1,64 @@
+{
+    "name": "@winnerpc/eslint-config-next",
+    "version": "2025.2.1-rc.1",
+    "description": "Reusable ESLint config for Next.js projects.",
+    "type": "module",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsup",
+        "prepare": "husky"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Winner-pc/eslint-config-next.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Winner-pc/eslint-config-next/issues"
+    },
+    "homepage": "https://github.com/Winner-pc/eslint-config-next#readme",
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "nextjs",
+        "eslint-plugin-next",
+        "react",
+        "eslint-plugin-react",
+        "typescript",
+        "winner-pc"
+    ],
+    "author": "Winner-pc",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "eslint": "9.25.1",
+        "next": "14.2.28",
+        "react": "18.x",
+        "typescript": "5.8.x"
+    },
+    "dependencies": {
+        "@eslint/js": "9.25.1",
+        "@next/eslint-plugin-next": "14.2.28",
+        "@stylistic/eslint-plugin": "4.2.0",
+        "eslint": "9.25.1",
+        "eslint-plugin-jsx-a11y": "6.10.2",
+        "eslint-plugin-react": "7.37.5",
+        "eslint-plugin-react-hooks": "5.2.0",
+        "eslint-plugin-react-refresh": "0.4.20",
+        "globals": "^16.0.0",
+        "typescript-eslint": "8.31.0"
+    },
+    "devDependencies": {
+        "@winnerpc/prettier-config": "2025.1.1",
+        "husky": "^9.1.7",
+        "lint-staged": "^15.5.1",
+        "prettier": "3.5.3",
+        "tsup": "^8.4.0",
+        "typescript": "~5.8.3"
+    },
+    "overrides": {
+        "eslint": "9.25.1"
+    }
+}

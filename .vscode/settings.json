@@ -1,0 +1,41 @@
+{
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "cSpell.words": [
+        "adduser",
+        "allman",
+        "cheatsheet",
+        "lintstagedrc",
+        "multilines",
+        "nonblock",
+        "pnpx",
+        "tsup",
+        "winnerpc"
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "eslint.useFlatConfig": true,
+    "files.associations": {
+        ".prettierignore": "ignore"
+    },
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "javascript.preferences.jsxAttributeCompletionStyle": "braces",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.preferences.jsxAttributeCompletionStyle": "braces"
+}

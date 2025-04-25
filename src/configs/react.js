@@ -1,0 +1,1 @@
+export { reactConfig } from "./plugins"
