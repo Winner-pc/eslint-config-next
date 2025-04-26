@@ -1,9 +1,10 @@
 {
     "name": "@winnerpc/eslint-config-next",
-    "version": "2025.2.1-rc.1",
+    "version": "2025.2.1-rc.2",
     "description": "Reusable ESLint config for Next.js projects.",
     "type": "module",
-    "main": "./dist/index.js",
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "scripts": {
         "build": "tsup",
