@@ -1,6 +1,6 @@
 {
     "name": "@winnerpc/eslint-config-next",
-    "version": "2025.2.1",
+    "version": "2025.2.2-rc.1",
     "description": "Reusable ESLint config for Next.js projects.",
     "type": "module",
     "main": "./dist/index.js",
@@ -48,10 +48,10 @@
         "eslint-plugin-react-hooks": "5.2.0",
         "eslint-plugin-react-refresh": "0.4.20",
         "globals": "^16.0.0",
-        "typescript-eslint": "8.31.0"
+        "typescript-eslint": "8.31.1"
     },
     "devDependencies": {
-        "@winnerpc/prettier-config": "2025.1.1",
+        "@winnerpc/prettier-config": "2025.2.2",
         "husky": "^9.1.7",
         "lint-staged": "^15.5.1",
         "prettier": "3.5.3",
