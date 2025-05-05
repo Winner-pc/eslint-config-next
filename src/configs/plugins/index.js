@@ -22,12 +22,12 @@ const baseConfig = [
     tseslint.configs.recommended,
     globalIgnores(
         [
-            "coverage",
-            ".next",
-            "out",
-            "build",
-            "dist",
-            "dist-ssr",
+            "coverage/",
+            ".next/",
+            "out/",
+            "build/",
+            "dist/",
+            "dist-ssr/",
             "next-env.d.ts",
         ],
     ),
