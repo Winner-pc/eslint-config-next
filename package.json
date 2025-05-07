@@ -1,6 +1,6 @@
 {
     "name": "@winnerpc/eslint-config-next",
-    "version": "2025.2.3",
+    "version": "2025.2.4",
     "description": "Reusable ESLint config for Next.js projects.",
     "type": "module",
     "main": "./dist/index.js",
