@@ -104,14 +104,27 @@ next-env.d.ts
 Add these scripts to your `package.json` for easier usage:
 
 ```json
-"scripts": {
-    "lint": "eslint .",
-    "lint:inspect": "eslint --inspect-config"
+{
+    "scripts": {
+        "lint": "eslint .",
+        "lint:inspect": "eslint --inspect-config"
+    }
 }
 ```
 
-- `npm run lint` — Lint the entire project.
-- `npm run lint:inspect` — Inspect the ESLint configuration.
+Lint the entire project using ESLint:
+
+```bash
+npm run lint
+```
+
+Inspect the ESLint configuration:
+
+```bash
+npm run lint:inspect
+```
+
+Each command above can be run in the terminal from the root of your project. These scripts help automate repetitive tasks and ensure consistency across your codebase.
 
 ---
 
