@@ -11,4 +11,5 @@
 *.tsx
 
 # Misc
+package-lock.json
 pnpm-lock.yaml
