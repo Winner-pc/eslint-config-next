@@ -43,6 +43,7 @@
         "@eslint/js": "9.25.1",
         "@next/eslint-plugin-next": "14.2.28",
         "@stylistic/eslint-plugin": "4.2.0",
+        "dotenv": "^16.5.0",
         "eslint": "9.25.1",
         "eslint-plugin-jsx-a11y": "6.10.2",
         "eslint-plugin-react": "7.37.5",
@@ -52,7 +53,7 @@
         "typescript-eslint": "8.32.0"
     },
     "devDependencies": {
-        "@winnerpc/prettier-config": "2025.3.1",
+        "@winnerpc/prettier-config": "2025.3.2",
         "husky": "^9.1.7",
         "lint-staged": "^16.0.0",
         "prettier": "3.5.3",
