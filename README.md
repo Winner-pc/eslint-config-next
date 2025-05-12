@@ -60,7 +60,7 @@ export { reactConfig as default } from "@winnerpc/eslint-config-next"
 
 #### Recommended Project Structure
 
-Here’s a simple example of how your project structure might look:
+Here's a simple example of how your project structure might look:
 
 ```
 my-project/
@@ -116,12 +116,20 @@ Lint the entire project using ESLint:
 
 ```bash
 npm run lint
+# or
+yarn lint
+# or
+pnpm lint
 ```
 
 Inspect the ESLint configuration:
 
 ```bash
 npm run lint:inspect
+# or
+yarn lint:inspect
+# or
+pnpm lint:inspect
 ```
 
 Each command above can be run in the terminal from the root of your project. These scripts help automate repetitive tasks and ensure consistency across your codebase.
