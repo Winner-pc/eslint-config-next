@@ -1,3 +1,5 @@
+import "dotenv/config"
+
 import { defineConfig } from "tsup"
 
 export default defineConfig({
@@ -8,4 +10,7 @@ export default defineConfig({
     skipNodeModulesBundle: true,
     minify: true,
     clean: true,
+    env: {
+        TARGET_EXTENSIONS: process.env.TARGET_EXTENSIONS!,
+    },
 })

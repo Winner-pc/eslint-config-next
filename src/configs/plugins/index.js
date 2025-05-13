@@ -1,5 +1,3 @@
-import "dotenv/config"
-
 import tseslint from "typescript-eslint"
 import { globalIgnores } from "eslint/config"
 import globals from "globals"
@@ -63,10 +61,20 @@ const combinePluginConfigsWithNext = [
     pluginNextConfig,
 ]
 
+/**
+ * @type {import("typescript-eslint").ConfigWithExtends["files"]}
+ */
+const TARGET_EXTENSIONS_FALLBACK = "**/*.{ts,tsx}"
+
+/**
+ * @type {import("typescript-eslint").ConfigWithExtends["files"]}
+ */
+const TARGET_EXTENSIONS = process.env.TARGET_EXTENSIONS ?? TARGET_EXTENSIONS_FALLBACK
+
 export const reactConfig = tseslint.config(
     ...baseConfig,
     ...combinePluginConfigs.map(config => ({
-        files: [process.env.TARGET_EXTENSIONS],
+        files: TARGET_EXTENSIONS,
         ...config,
     })),
 )
@@ -74,7 +82,7 @@ export const reactConfig = tseslint.config(
 export default tseslint.config(
     ...baseConfig,
     ...combinePluginConfigsWithNext.map(config => ({
-        files: [process.env.TARGET_EXTENSIONS],
+        files: TARGET_EXTENSIONS,
         ...config,
     })),
 )
