@@ -116,9 +116,9 @@ Lint the entire project using ESLint:
 
 ```bash
 npm run lint
-# or
+# Or Yarn
 yarn lint
-# or
+# Or pnpm
 pnpm lint
 ```
 
@@ -126,9 +126,9 @@ Inspect the ESLint configuration:
 
 ```bash
 npm run lint:inspect
-# or
+# Or Yarn
 yarn lint:inspect
-# or
+# Or pnpm
 pnpm lint:inspect
 ```
 

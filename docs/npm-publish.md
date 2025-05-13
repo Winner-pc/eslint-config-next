@@ -64,9 +64,9 @@ Publishes the package using the default tag (usually `latest`).
 
 ```bash
 npm publish --tag rc
-# or
+# Or latest
 npm publish --tag latest
-# or
+# Or stable
 npm publish --tag stable
 ```
 
