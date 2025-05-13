@@ -1,6 +1,6 @@
 {
     "name": "@winnerpc/eslint-config-next",
-    "version": "2025.3.3-rc.2",
+    "version": "2025.3.3-rc.3",
     "description": "Reusable ESLint config for Next.js projects.",
     "type": "module",
     "main": "./dist/index.js",
@@ -53,7 +53,7 @@
     },
     "devDependencies": {
         "@types/node": "^22",
-        "@winnerpc/prettier-config": "2025.3.2",
+        "@winnerpc/prettier-config": "2025.3.3",
         "dotenv": "^16.5.0",
         "husky": "^9.1.7",
         "lint-staged": "^16.0.0",
