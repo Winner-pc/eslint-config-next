@@ -61,15 +61,12 @@ const combinePluginConfigsWithNext = [
     pluginNextConfig,
 ]
 
-/**
- * @type {import("typescript-eslint").ConfigWithExtends["files"]}
- */
 const TARGET_EXTENSIONS_FALLBACK = "**/*.{ts,tsx}"
 
 /**
  * @type {import("typescript-eslint").ConfigWithExtends["files"]}
  */
-const TARGET_EXTENSIONS = process.env.TARGET_EXTENSIONS ?? TARGET_EXTENSIONS_FALLBACK
+const TARGET_EXTENSIONS = [process.env.TARGET_EXTENSIONS ?? TARGET_EXTENSIONS_FALLBACK]
 
 export const reactConfig = tseslint.config(
     ...baseConfig,
